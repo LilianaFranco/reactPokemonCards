@@ -1,9 +1,12 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
+import { PokemonList } from "./Components/PokemonList";
 
 function App() {
-  return <div className="App">Hola, Mundo!</div>;
+  return (
+    <div className="App">
+      <PokemonList />
+    </div>
+  );
 }
 
 export default App;
