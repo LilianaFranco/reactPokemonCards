@@ -2,11 +2,13 @@ import React from "react";
 import { Pokemons } from "./Pokemons";
 
 export const PokemonList = () => {
+  let type = "fire";
+
   return (
-    <div>
+    <>
       <li>
-        <Pokemons type="water" />
+        <Pokemons type={type} />
       </li>
-    </div>
+    </>
   );
 };
