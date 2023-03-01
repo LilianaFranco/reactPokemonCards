@@ -1,5 +1,5 @@
 import React from "react";
-import { Pokemons } from "./Pokemons";
+import { Pokemons } from "../Pokemons/Pokemons";
 
 export const PokemonList = () => {
   let type = "fire";
